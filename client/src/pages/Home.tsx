@@ -49,7 +49,7 @@ export function StoreHeader({ onCart, onAuth }: { onCart: () => void; onAuth: ()
   return (
     <>
       <div className="announcement">
-        <span>Complimentary shipping on orders over $75</span>
+        <span>Complimentary shipping on orders over ₹1,999</span>
         <span className="announcement-dot">✦</span>
         <span>Small batches, considered objects</span>
       </div>
@@ -644,7 +644,7 @@ export function ProductDetails() {
             </button>
           </div>
           <div className="detail-trust">
-            <span>Free shipping over $75</span>
+            <span>Free shipping over ₹1,999</span>
             <span>30-day returns</span>
             <span>Ships in 1–2 days</span>
           </div>
@@ -718,7 +718,7 @@ export function ProductDetails() {
 
 export function CartDrawer({ open, onClose, onCheckout }: { open: boolean; onClose: () => void; onCheckout: () => void }) {
   const { cartProducts, cartTotal, updateQuantity, removeFromCart } = useStore();
-  const freeShippingThreshold = 75;
+  const freeShippingThreshold = 1999;
   const remaining = Math.max(0, freeShippingThreshold - cartTotal);
   const progressPercent = Math.min(100, Math.round((cartTotal / freeShippingThreshold) * 100));
 
