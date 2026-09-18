@@ -16,7 +16,7 @@
 
 ## ✨ Overview
 
-**Orbit Market** is a polished e-commerce storefront designed to demonstrate a complete modern shopping experience in the browser. It combines a responsive React interface with product discovery, product details, shopping-bag interactions, demo authentication, and a local checkout flow.
+**Orbit Market** is a polished e-commerce storefront designed to demonstrate a modern shopping experience in the browser. It combines a responsive React interface with product discovery, product details, shopping-bag interactions, demo authentication, and a local checkout flow.
 
 The project is also prepared for **GitHub Pages**, with an automated GitHub Actions workflow that builds the static frontend and publishes it whenever changes are pushed to `main`.
 
@@ -64,7 +64,7 @@ The project is also prepared for **GitHub Pages**, with an automated GitHub Acti
 | **GitHub Actions** | Continuous deployment |
 | **GitHub Pages** | Static frontend hosting |
 
-The project's package configuration includes React, TypeScript, Vite, Tailwind CSS, Framer Motion, Express, Radix UI, Wouter, Zod, and other supporting libraries. fileciteturn7file0L2-L5
+The project's package configuration includes React, TypeScript, Vite, Tailwind CSS, Framer Motion, Express, Radix UI, Wouter, Zod, and other supporting libraries.
 
 ---
 
@@ -87,7 +87,7 @@ CodeAlpha_Orbitmarket_ecommerce/
 └── README.md
 ```
 
-The repository contains separate `client` and `server` areas, a Pages deployment workflow, project configuration, and a backend contract for future production integration. fileciteturn5file0L2-L2
+The repository contains separate `client` and `server` areas, a Pages deployment workflow, project configuration, and a backend contract for future production integration.
 
 ---
 
@@ -152,7 +152,7 @@ pnpm check
 
 ## 🌍 GitHub Pages Deployment
 
-Orbit Market includes an automated workflow at `.github/workflows/deploy-pages.yml`. It runs when changes are pushed to `main` or when the workflow is manually triggered. The workflow installs dependencies, builds the static frontend, uploads the `dist` artifact, and deploys it through GitHub Pages. fileciteturn8file0L2-L5
+Orbit Market includes an automated workflow at `.github/workflows/deploy-pages.yml`. It runs when changes are pushed to `main` or when the workflow is manually triggered. The workflow installs dependencies, builds the static frontend, uploads the `dist` artifact, and deploys it through GitHub Pages.
 
 ### Deployment flow
 
